@@ -49,6 +49,83 @@ body {
     border: 2px solid #000;
 }
 
+.donkerblauweBalk {
+    position: relative;
+    width: 475px;
+    height: 20px;
+    background-color: darkblue;
+    bottom: 6px;
+    left: 2px;
+    border: 2px solid #000;
+}
+
+.een::before {
+    position: absolute;
+    top: -4px;
+    left: 11px;
+    font-weight: bold;
+    font-size: 42px;
+    content: "1";
+    color: rgb(0, 0, 106);
+}
+
+.minuut::before {
+    position: absolute;
+    top: 11px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 26px;
+    content: "minuut";
+    color: rgb(0, 0, 106);
+}
+
+.Intercity::before {
+    position: absolute;
+    top: 0px;
+    right: 90px;
+    font-weight: bold;
+    font-size:  37px;
+    content: "Intercity";
+    color: rgb(0, 0, 106);
+}
+
+.nsLogo {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 76px;
+    height: 30px;
+}
+
+.Heerlen::before {
+    position: absolute;
+    top: 41px;
+    left: 13px;
+    font-weight: bold;
+    font-size: 39px;
+    content: "Heerlen";
+    color: rgb(0, 0, 106);
+}
+
+.middenTekstTop::before {
+    position: absolute;
+    top: 96px;
+    left: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    content: "via 's-Hertogenbosch, Eindhoven,";
+    color: rgb(0, 0, 106);
+}
+
+.middenTekstBot::before {
+    position: absolute;
+    top: 132px;
+    left: 14px;
+    font-weight: bold;
+    font-size: 25px;
+    content: "Weert, Roermond en Sittard";
+    color: rgb(0, 0, 106);
+}
 
 .witVierkantRechts {
     position: relative;
@@ -68,13 +145,33 @@ body {
     background-color: rgb(0, 0, 106);
 }
 
-.nummer18 :before {
-    content: 18;
-    position: relative;
-    width: 60px;
-    height: 60px;
-    color: rgb(0, 0, 106);
-    font-size: 67px;
+.nummer::before {
+    position: absolute;
+    top: 22px;
+    left: 4px;
     font-weight: bold;
-    letter-spacing: 7px;
+    font-size: 67px;
+    content: "18";
+    color: rgb(0, 0, 106);
+    letter-spacing: -7px;
+}
+
+.letter::before {
+    position: absolute;
+    top: 31px;
+    left: 69px;
+    font-weight: bold;
+    font-size: 30px;
+    content: "b";
+    color:  rgb(0, 0, 106);
+}
+
+.spoor::before {
+    position: absolute;
+    top: 4px;
+    left: 21px;
+    font-weight: bold;
+    font-size: 11px;
+    content: "spoor";
+    color:  rgb(0, 0, 106);
 }
